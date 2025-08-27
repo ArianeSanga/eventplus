@@ -1,43 +1,57 @@
-Event+ – Organização de Festas e Eventos
+# 📱 Event+ – Organização de Festas e Eventos
 
-## Descrição
-O **Event+** é um aplicativo mobile que auxilia usuários na organização de festas e eventos, como aniversários, chás de bebê e churrascos. Ele permite gerenciar convidados, tarefas, enviar notificações automáticas, registrar fotos e áudios, consultar mapas e rotas, e sincronizar dados entre participantes de forma prática e integrada.
-
----
-
-## Funcionalidades Principais
-- Cadastro de eventos com informações como nome, data, local e descrição.
-- Lista de convidados e tarefas do evento.
-- Envio de lembretes e notificações automáticas sobre tarefas e proximidade do evento.
-- Sincronização de dados com convidados através do Firebase.
-- Uso da câmera e microfone para registrar fotos e áudios relacionados ao evento.
-- Consulta de informações externas via API (ex.: previsão do tempo).
-- Exibição do local do evento em mapa interativo, com traçado de rotas.
+Event+ é um aplicativo móvel desenvolvido para ajudar usuários a **organizar festas e eventos** de forma prática e colaborativa.  
+Com ele, é possível cadastrar eventos, gerenciar convidados, criar tarefas, compartilhar informações e receber lembretes automáticos.
 
 ---
 
-## Requisitos Técnicos
-O projeto atende aos seguintes requisitos do curso (PPC):
-
-- **Persistência de dados local (SQLite):** armazenamento de lista de convidados e tarefas.  
-- **Sistema de arquivos:** armazenamento de fotos e áudios no dispositivo.  
-- **Base de dados remota (Firebase):** sincronização de convidados e tarefas entre usuários.  
-- **Serviços Web (API):** consulta ao clima para planejamento do evento.  
-- **Notificações:** lembretes de tarefas e eventos próximos.  
-- **Mapas e localização:** visualização do local do evento no mapa, obtenção da localização atual e traçado de rotas.  
-- **Multimídia:** uso da câmera para fotos e microfone para gravação de ideias/recados.  
+## 🚀 Funcionalidades
+- Cadastro de eventos (nome, data, local, descrição)
+- Lista de convidados e tarefas
+- Notificações e lembretes automáticos
+- Integração com Firebase para sincronização
+- Uso de câmera e microfone para fotos e áudios
+- Consulta de previsão do tempo (API)
+- Exibição do local no mapa e traçado de rotas
 
 ---
 
-## Tecnologias Utilizadas
-- **Linguagem:** Kotlin / Java  
-- **IDE:** Android Studio  
-- **Banco de dados local:** SQLite  
-- **Banco de dados remoto:** Firebase  
-- **APIs externas:** Previsão do tempo e serviços Web  
-- **Mapas e geolocalização:** Google Maps API  
-- **Controle de versão:** Git/GitHub  
+## 🛠️ Tecnologias
+- **Linguagem:** Kotlin  
+- **Persistência Local:** SQLite  
+- **Banco de Dados Remoto:** Firebase  
+- **Serviços Web:** APIs REST (ex.: OpenWeatherMap)  
+- **Notificações:** Android Notification Manager  
+- **Mapas:** Google Maps SDK  
+- **Multimídia:** Câmera e microfone  
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do Repositório
+- `/app` → Código-fonte Android  
+- `/docs` → Documentação do projeto (proposta, roadmap, PoCs)  
+- `/assets` → Logos, imagens e mockups  
+
+---
+
+##  Equipe
+- **Ariane Sanga** – Gerente do Projeto & Desenvolvimento  
+- **Ellen Gonçalves** – Desenvolvimento Técnico  
+- **Leonardo Villa** – Documentação & Testes  
+
+---
+
+##  Roadmap
+- [x] Estrutura inicial do app  
+- [ ] Persistência local (SQLite)  
+- [ ] Notificações e lembretes  
+- [ ] Integração Firebase  
+- [ ] API de clima  
+- [ ] Mapas e multimídia  
+
+---
+
+## Como rodar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/EventPlus.git
