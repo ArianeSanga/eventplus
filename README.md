@@ -5,7 +5,7 @@ Com ele, é possível cadastrar eventos, gerenciar convidados, criar tarefas, co
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - Cadastro de eventos (nome, data, local, descrição)
 - Lista de convidados e tarefas
 - Notificações e lembretes automáticos
