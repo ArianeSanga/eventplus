@@ -1,1 +1,40 @@
-
+Proposta de Projeto – App Event+ 
+Integrantes: Ariane Sanga, Ellen Gonçalves e Leonardo Villa. 
+Título do Projeto: Event+ – Organização de Festas e Eventos 
+Resumo da Proposta 
+O aplicativo Event+ tem como objetivo auxiliar usuários na organização de festas e 
+eventos, como aniversários, chás de bebê e churrascos. O sistema permitirá: 
+• Cadastrar eventos. 
+• Gerenciar convidados e tarefas. 
+• Compartilhar informações com os participantes. 
+• Enviar lembretes automáticos. 
+Além disso, o aplicativo fará uso de recursos multimídia e de localização, tornando a 
+experiência completa e prática. 
+Funcionalidades Principais 
+• Cadastro de eventos com informações como nome, data, local e descrição. 
+• Lista de convidados e tarefas do evento. 
+• Envio de lembretes e notificações automáticas sobre tarefas e proximidade do 
+evento. 
+• Sincronização de dados com convidados através do Firebase. 
+• Uso da câmera e microfone para registrar fotos e áudios relacionados ao 
+evento. 
+• Consulta de informações externas via API (ex.: previsão do tempo para o dia da 
+festa). 
+• Exibição do local do evento em mapa interativo com possibilidade de traçar 
+rotas. 
+Requisitos Técnicos Atendidos (PPC) 
+• Persistência de dados local (SQLite): armazenamento de lista de convidados e 
+tarefas. 
+• Sistema de arquivos: armazenamento de fotos e áudios no dispositivo. 
+• Base de dados remota (Firebase): sincronização de convidados e tarefas entre 
+usuários. 
+• Serviços Web (API): consulta ao clima para auxiliar no planejamento do evento. 
+• Notificações: lembretes de tarefas e eventos próximos. 
+• Mapas e localização: visualização do local do evento no mapa, obtenção da 
+localização atual e traçado de rotas. 
+• Multimídia: uso da câmera para fotos dos preparativos e microfone para 
+gravação de ideias/recados. 
+Justificativa 
+O Event+ se propõe a unir funcionalidades que são comuns em diferentes aplicativos 
+(listas de tarefas, mapas, lembretes, fotos, gravações) em uma única ferramenta 
+prática, facilitando a organização de eventos sem complicações. 
